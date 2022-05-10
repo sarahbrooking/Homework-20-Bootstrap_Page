@@ -1,0 +1,186 @@
+/* add your css styles here! */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1EAE0;
+}
+
+#navigationbar {
+    background-color: #064B72;
+}
+.heroContainer {
+    min-height: 500px;
+    margin: 0;
+}
+.stripesContainer {
+    background-color: #064B72;
+}
+.card-text {
+    text-align: left;
+  }
+  .card-title {
+    text-align: left;
+  }
+  .aboutMe {
+      width: 100%;
+  }
+  .profilepicContainer {
+      background-color: #064B72;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px;
+      padding-top: 100px;
+      padding-bottom: 150px;
+  }
+  
+  .introContainer {
+      background-color: #F1EAE0;
+      padding-bottom: 100px;
+      padding-top: 50px;
+      padding-right: 175px;
+      padding-left: 50px;
+  }
+  .introText {
+      width: 75%;
+      margin: 0 auto;
+      padding-top: 100px;
+  }
+
+  .nav-item {
+      margin-right: 20px;
+  }
+  .navbar-nav {
+      margin-left: 50px;
+  }
+  .socialIcons {
+      width: 220px;
+      justify-content: space-around;
+      align-items: center;
+      display: flex;
+      margin: 0 auto;
+  }
+  #heroGrid { /* Grid CSS */
+    margin: 0px ;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 95% 5%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas: 
+    "leftColumnFaded middleColumnFaded rightColumnFaded"
+    "leftColumn middleColumn rightColumn";
+   }
+  /* Category Grid CSS */
+  #leftColumnFaded {
+    grid-area: leftColumnFaded;
+    background-image: url(../images/column-one-faded.svg);
+  }
+  #middleColumnFaded {
+    grid-area: middleColumnFaded;
+    background-image: url(../images/column2-faded.svg);
+  }
+  #rightColumnFaded {
+    grid-area: rightColumnFaded;
+    background-image: url(../images/column-3-faded.svg);
+  }
+  #leftColumn {
+    grid-area: leftColumn;
+    background-image: url(../images/left-column.svg);
+  }
+  #middleColumn {
+    grid-area: middleColumn;
+    background-image: url(../images/middle-column.svg);
+  }
+  #rightColumn {
+    grid-area: rightColumn;
+    background-image: url(../images/right-column.svg);
+  }
+  
+  
+  .heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+  }
+  #headline {
+    border-radius: 15px;
+    background-color: #F1EAE0;
+    padding: 30px;
+    padding-left: 100px;
+    position: absolute;
+    left: -20px; 
+    right: -20px;
+     align-self: center;
+      z-index: 1;
+  }
+  #heroGrid2 { /* Grid CSS */
+    display: grid;
+    min-height: 25px;
+    grid-template-rows:1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas: 
+    "leftColumn middleColumn rightColumn";
+   }
+   .card-body {
+     background-color: #064B72;
+   }
+   .card-title {
+     color:#f1EAE0;
+   }
+   .card-text {
+     color: #f1EAE0;
+   }
+   .btn-primary {
+     background-color: #f1EAE0;
+     color:#064B72;
+     border-radius: 0px;
+     border: 0px;
+   }
+   .btn-primary:hover {
+     background-color:#ED6335;
+   }
+   
+   .jumbotron {
+     background-color: #f1EAE0;
+   }
+  /* Text css styles here! */
+  p1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px;
+    color: #064B72;
+    font-style: verdana;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px;
+    color: #064B72;
+    font-style: verdana;
+  }
+  
+  h3 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px 0px;
+    font-family: serif;
+    font-weight: bold;
+    color: #E93119;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px;
+    font-family: serif;
+    color: #F1EAE0;
+  }
+  p2 {
+    font-size: 22px;
+    font-weight: 400;
+    font-style:oblique;
+    margin: 0px 0px;
+    font-family: serif;
+    color: #F1EAE0;
+  }
